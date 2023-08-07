@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--link a google font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap" rel="stylesheet">
+  <!-- Link Bs -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <!--Link Icons bs-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!--link al css-->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Dingdog</title>
+</head>
+
+<body>
+  <!--start header-->
+  <header>
+    <nav class="navbar bg-body-tertiary fixed-top navbar-expand-md backcolor">
+      <div class="container-fluid">
+        <a href="index.html">
+          <img class="logo" src="assets/img/logocolordefi-01.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Ding Dog</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/quienesomos.html">Quienes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+
+  <!--start main-->
+  <!--Start Banner-->
+  <main>
+    <section>
+      <div class="bannerp">
+        <img src="assets/img/banner-p-1.png" class="img-fluid" alt="">
+
+        <div class="banner-principal">
+          <h1 id="h1_banner text-truncate" >BIENVENIDOS A DING DOG</h1>
+          <a class="button" href="pages/quienesomos.html">Conocenos</a>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!--Start cards-->
+    <section class="cards-index">
+      <div class="row">
+        <div class="col-lg-4 col-sm-6">
+          <article class="cards shadow p-3 mb-5 bg-body-tertiary rounded">
+            <img src="assets/img/persona.png" alt="">
+            <h3>Confianza</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur repellendus modi autem, voluptatem eius maxime aspernatur odit non ab a.</p>
+          </article>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <article class="cards shadow p-3 mb-5 bg-body-tertiary rounded">
+            <img src="assets/img/corazon.png" alt="">
+            <h3>Amor por ellos</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi enim molestias est quae veniam numquam fuga. Fugit quo aperiam dolorum.</p>
+          </article>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <article class="cards shadow p-3 mb-5 bg-body-tertiary rounded">
+            <img src="assets/img/estrella.png" alt="">
+            <h3>Disponibilidad</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde neque velit nihil suscipit optio labore quia cupiditate porro, sunt distinctio?</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <!--Start Resenas-->
+
+    <section class="container">
+      <div class="row">
+        <div class="col-md-12 tex-resena">
+          <h2>RESEÑAS</h2>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div id="carouselExampleDark" class=" container carousel carousel-dark slide">
+        <div class="carousel-inner tex-color">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="assets/img/kenia1.jpg" class="img-fluid d-blocks" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>KENIA</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis debitis aut natus corrupti adipisci
+                temporibus ullam laudantium in vero nihil.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="assets/img/manchis.png" class="d-block" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>NALA</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sapiente voluptates atque error deserunt
+                accusamus amet itaque nihil voluptas eius vero aspernatur ipsam sint non, expedita eum quia officiis.
+                Accusamus.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/manchis.png" class="d-block" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>FLOY</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, molestias aut. Earum sed, dignissimos,
+                voluptate natus maxime molestias similique ab alias ex a distinctio nesciunt vel nobis mollitia
+                architecto! Atque mollitia ab facere excepturi inventore ad eum quae. Maiores, doloremque!</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/manchis.png" class="d-block" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>BOWI</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, molestias aut. Earum sed, dignissimos,
+                voluptate natus maxime molestias similique ab alias ex a distinctio nesciunt vel nobis mollitia
+                architecto! Atque mollitia ab facere excepturi inventore ad eum quae. Maiores, doloremque!</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!--start footer-->
+  <footer>
+    <div class="container text-center">
+      <div class="row align-items-start">
+        <div class="col-md-4">
+          <img class="logo-inferior" src="assets/img/CABEZADEFI-01.png" alt="">
+        </div>
+        <div class="col-md-4">
+          <h3>Más Info</h3>
+          <ul>
+            <li><a class="nav-link2" href="pages/quienesomos.html">Quienes Somos</a></li>
+            <li><a class="nav-link2" href="pages/galeria.html">Galeria</a></li>
+            <li><a class="nav-link2" href="pages/servicios.html">Servicios</a></li>
+            <li><a class="nav-link2" href="pages/contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <div class="div-contacto">
+            <i class="bi bi-envelope-fill"></i>
+            <p>dingdog@info.com</p>
+          </div>
+          <div class="div-contacto">
+            <i class="bi bi-telephone-fill"></i>
+            <p>11-6058-9243</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--<div class="derechos">
+        <p>Todos los derechos reservados - Copyright 2022 - Ding Dog</p>
+       </div>-->
+  </footer>
+
+  <!--script bs-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
