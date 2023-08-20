@@ -45,7 +45,9 @@
 
         h1 {
             font-size: 6rem;
-            font-family: 'Roboto', light;
+            
+            
+           
         }
 
         .button {
@@ -171,53 +173,25 @@ footer {
 
 
 
-
-
-
-
 /*start html quienessomos*/
 
 .banner-qs {
-    position: absolute;
-    top: 50%;
-    color: white;
-    left: 17%;
-}
+    margin-left: 10%;
+    display: grid;
+    gap: 38px;
+    padding: 130px;
+    color: rgb(0, 0, 0);
 
-.caja_principal {
-    padding: 30px;
-    /*display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;*/
-}
+    & h2 {
+        font-size: 40px;
+    }
 
-.caja {
-    display: flex;
-    align-items: center;
-    transition: 0.5s;
-    /*justify-content: space-between;*/
-}
-
-
-.caja img {
-    width: 20%;
-    transition: 0.5s;
-}
-
-.caja:hover img {
-    width: 60%;
-}
-
-.caja__conte {
-    padding: 30px;
-    /*padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start; 
-    gap: 30px;*/
+    & p{
+        width: 50%;
+        color: #807e7e;
+    }
+    
+    
 }
 
 
@@ -225,41 +199,40 @@ footer {
 
 /*start html galeria*/
 
-.gene-carrusel {
-    margin-top: -5.5%;
-    z-index: 0;
-
-}
-
-#carouselExampleCaptions {
+.contenido{
+    margin-top: 13%;
     text-align: center;
-    padding: 20px;
-
+    display: grid;
+    justify-items: center;
+    
+    & p{
+        width: 36%;
+        margin-top: 10px;
+        color: #807e7e;
+    }
 }
 
+.galeria{
+    margin-top: 32px;
+    padding: 75px;
+    
+     .animation-galeria{
+        transition: 1s;
+     &:hover{
+        transform: scale(1.05,1.05);
+        
+     }
 
-.banner-ga {
-    position: relative;
-    display: inline-block;
-    margin-top: 7%;
-    left: 40%;
-    z-index: 10;
+     }
+    
+    img{
+        width: 100%;
+        
+    }
 
-}
-
-.banner__ga {
-    position: absolute;
-    top: 50%;
-    left: -60%;
-    color: rgb(0, 0, 0);
-}
-
-.banner__ga h1 {
-    font-size: 60px;
-}
-
-.carru-img {
-    width: 100%;
+    .tards-galeria{
+        margin: 0 0 20px;
+    }
 }
 
 
@@ -268,28 +241,37 @@ footer {
 
 .cards-index {
     padding: 50px;
-}
 
-.cards_servicios img {
-    width: 20%;
-    object-fit: cover;
-
-}
-
-.cards_servicios2 img {
-    width: 25%;
-    object-fit: cover;
-
+    .cards_servicios img {
+        width: 20%;
+        object-fit: cover;
+    
+    }
+    
+    .cards_servicios2 img {
+        width: 25%;
+        object-fit: cover;
+    
+    }
+   
 }
 
 .card-infocontac {
-    padding: 5%;
+    width: 534px; 
+    margin-top: 80px;
+
+    .card-infocontac-color {
+        background-color: #f7e6db;
+
+        & p{
+            color: #807e7e;
+        }
+    }
 
 }
 
-.card-infocontac-color {
-    background-color: #f7d3bb;
-}
+
+
 
 
 /*start html contacto*/
@@ -297,89 +279,153 @@ footer {
 .bannerp-formu {
     position: relative;
     display: flex;
+
+    .container-div {
+        position: absolute;
+        margin-top: 16%;
+        left: 10%;
+        
+        .container-div {
+
+            & h2{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 30px;
+            margin: 0 0 20px 0;
+            color: #434343;
+        }
+        }
+        
+        .container-dtd {
+            display: flex;
+
+            .form-container-dtd {
+                display: grid;
+                width: 300px;
+                margin: 0 39px 0 0;
+            }
+            
+            .form-label-dtd {
+                margin-top: 5%;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                color: #595959;
+            }
+            
+            .form-input-dtd {
+                border-radius: 10px;
+                height: 130%;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            
+         
+        }
+        .button-enviar-dtd {
+            background-color: #434343;
+            border-radius: 10px;
+            margin-top: 4%;
+            width: 100px;
+            color: white;
+        }
+        
+
+    }
+    
+    
 }
 
-.container-div {
-    position: absolute;
-    margin-top: 16%;
-    left: 10%;
-}
 
-.container-div h2 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 30px;
-    margin: 0 0 20px 0;
-    color: #434343;
-}
 
-.container-dtd {
-    display: flex;
-}
-
-.form-container-dtd {
-    display: grid;
-    width: 300px;
-    margin: 0 39px 0 0;
-}
-
-.form-label-dtd {
-    margin-top: 5%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #595959;
-}
-
-.form-input-dtd {
-    border-radius: 10px;
-    height: 130%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-.button-enviar-dtd {
-    background-color: #434343;
-    border-radius: 10px;
-    margin-top: 4%;
-    width: 100px;
-    color: white;
-}
-
-/*comienzo media queries*/
+/*comienzo media queries 990px*/
 
 /*index*/
 
 @media only screen and (max-width: 990px) {
 
-    .banner-principal {
-        top: 46%;
-        left: 5%;
-        right: 40%;
+    .bannerp{
+       width: 170%;
+ 
+        & img{
+
+            margin-top: 60px;
+        }
+
+        .banner-principal {
+            top: 46%;
+            left: 5%;
+            right: 40%;
+
+            & h1 {
+                font-size: 5rem;
+            }
+        }
     }
 
-    .bannerp h1 {
-        font-size: 4rem;
+/*start html quienessomos*/
+
+.img-fluid{
+    margin-top: 100px;
+ }
+
+.banner-qs {
+    margin-left: 92px;
+
+    & h2 {
+        font-size: 73px;
     }
 
-    .bannerp {
+    & p{
+        width: 90%;
+    }
+    
+    
+}
+    
+    
+
+}
+
+
+
+/*comienzo media queries 660px*/
+
+@media only screen and (max-width: 660px){
+    .bannerp{
         width: 170%;
+ 
+         & img{
+ 
+             margin-top: 60px;
+         }
+ 
+         .banner-principal {
+             top: 46%;
+             left: 5%;
+             right: 40%;
+
+             & h1 {
+                font-size: 3rem;
+            }
+         }
+     }
+
+     /*start html quienessomos*/
+
+
+     .img-fluid{
+        margin-top: 134px;
+     }
+
+.banner-qs {
+    margin-left: 0px;
+
+    & h2 {
+        font-size: 50px;
     }
 
-    .bannerp img {
-        margin-top: 60px;
+    & p{
+        width: 115%;
     }
-
-    /*quienes somos*/
-
-    .caja {
-        display: block;
-    }
-
-
-    .caja img {
-        width: 100%;
-        transition: none;
-    }
-
-    .caja:hover img {
-        width: 0;
-    }
-
+    
+    
+}
+    
 }
