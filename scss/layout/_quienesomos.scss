@@ -1,0 +1,19 @@
+/*start html quienessomos*/
+
+.banner-qs {
+    margin-left: 10%;
+    display: grid;
+    gap: 38px;
+    padding: 130px;
+    color: rgb(0, 0, 0);
+
+    & h2 {
+        font-size: 40px;
+    }
+
+    & p {
+        @include parrafo_config(50%,#807e7e,unset,unset);
+    }
+
+
+}

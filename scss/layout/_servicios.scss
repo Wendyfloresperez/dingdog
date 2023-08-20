@@ -1,0 +1,64 @@
+/*start html servicios*/
+
+#h1_banner {
+    font-size: 5rem;
+    margin-top: 18%;
+    margin-left: 16%;
+    margin-bottom: 34px;
+    color: #8f8f8f;
+    line-height: 77px;
+
+}
+
+
+.cards-index {
+    padding: 50px;
+
+    .cards_servicios {
+
+        & img {
+            width: 20%;
+            object-fit: cover;
+        }
+
+        & p {
+            @include parrafo_config(78%,unset,11px,unset);
+            margin-left: 35px;
+            text-align: initial;
+        }
+
+    }
+
+    .cards_servicios2 {
+
+        & img {
+            width: 25%;
+            object-fit: cover;
+
+        }
+
+        & p {
+            @include parrafo_config(78%,unset,11px,unset);
+            margin-left: 35px;
+            text-align: initial;
+        }
+
+
+
+    }
+
+}
+
+.card-infocontac {
+    width: 534px;
+    margin-top: 80px;
+
+    .card-infocontac-color {
+        background-color: #f7e6db;
+
+        & p {
+            @include parrafo_config(unset,#807e7e,unset,unset);
+        }
+    }
+
+}

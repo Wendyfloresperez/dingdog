@@ -1,0 +1,43 @@
+/*start footer*/
+
+
+footer {
+    background-color: #fffaf5; 
+    padding-top: 2%;
+
+    & h3 {
+
+        font-size: 20px;
+        text-align: center;
+    }
+
+    & img {
+        width: 40%;
+        margin: 0 5px;
+    }
+
+
+
+    ol,
+    ul {
+        padding-left: 0rem;
+    }
+
+
+    ul li {
+        text-align: center;
+        list-style: none;
+
+
+
+        .nav-link2 {
+            color: rgb(173, 173, 173);
+            font-size: 18px;
+            text-decoration: none;
+
+        }
+
+    }
+
+
+}

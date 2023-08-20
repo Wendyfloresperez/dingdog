@@ -1,0 +1,26 @@
+.navbar {
+
+    background-color: #fffaf5;
+    
+    .logo {
+        width: 160px;
+    }
+
+    .offcanvas-title {
+        color: #c89274
+    }
+
+    .nav-link {
+        color: #c89274;
+        text-decoration: none;
+    }
+
+    .nav-item {
+        &:hover {
+            background-color: #e0dddd;
+            border-radius: 4px;
+            transition: 0.5s;
+        }
+    }
+
+}

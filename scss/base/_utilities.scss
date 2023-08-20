@@ -1,0 +1,14 @@
+// MIXIN
+@mixin parrafo_config($width,$color,$font-size,$padding) {
+    width: $width;
+    color: $color;
+    font-size: $font-size;
+    padding: $padding;
+}
+
+// EXTEND
+.form_config {
+    padding: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #595959;
+}

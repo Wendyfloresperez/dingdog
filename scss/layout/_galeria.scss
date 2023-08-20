@@ -1,0 +1,56 @@
+/*start html galeria*/
+
+.contenido {
+    margin-top: 13%;
+    text-align: center;
+    display: grid;
+    justify-items: center;
+
+    & p {
+        @include parrafo_config(36%,#807e7e,unset,unset);
+        margin-top: 10px;
+    }
+}
+
+.galeria {
+    margin-top: 32px;
+    padding: 75px;
+    .animation-galeria {
+        transition: 1s;
+        position: relative;
+        &:hover {
+            transform: scale(1.05, 1.05);
+            & img {
+                transition: 0.3s;
+                filter: blur(0px);
+            }
+        }
+
+        .contenedor-imagen {
+            position: absolute;
+            top: 35%;
+            padding: 20px;
+            font-size: 13px;
+            text-align: center;
+            width: 96%;
+            background-color: #ffffff58;
+            opacity: 0;
+            transition: .3s;
+
+            &:hover {
+                opacity: 1;
+            }
+
+        }
+
+    }
+
+    img {
+        width: 100%;
+        filter: blur(1px)
+    }
+
+    .tards-galeria {
+        margin: 0 0 20px;
+    }
+}
