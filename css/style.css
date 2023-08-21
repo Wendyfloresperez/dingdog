@@ -12,6 +12,9 @@
 
 /*start footer*/
 footer {
+  font-family: "roboto";
+  font-style: "normal";
+  font-weight: 400;
   background-color: #fffaf5;
   padding-top: 2%;
 }
@@ -38,6 +41,9 @@ footer ul li .nav-link2 {
 }
 
 .navbar {
+  font-family: "roboto";
+  font-style: "normal";
+  font-weight: 400;
   background-color: #fffaf5;
 }
 .navbar .logo {
@@ -75,14 +81,21 @@ footer ul li .nav-link2 {
   margin-top: 28%;
   margin-left: 16%;
   margin-bottom: 34px;
+  line-height: 87px;
+  font-family: "poppins";
+  font-style: "normal";
+  font-weight: 700;
 }
 .bannerp .banner-principal .button {
-  font-size: 15px;
+  font-size: 23px;
   text-decoration: none;
   color: #ffffff;
   background-color: rgba(250, 188, 147, 0.76);
   padding: 10px;
   margin-left: 16%;
+  font-family: "roboto";
+  font-style: "normal";
+  font-weight: 400;
 }
 .bannerp .banner-principal .button:hover {
   color: #434343;
@@ -107,20 +120,31 @@ footer ul li .nav-link2 {
 }
 .cards-index .cards h3 {
   padding: 15px;
-  color: #686767;
+  color: #a17157;
+  font-family: "poppins";
+  font-style: "normal";
+  font-weight: 500;
 }
 .cards-index .cards p {
   width: unset;
-  color: #686767;
+  color: #c89274;
   font-size: unset;
   padding: 15px;
+  font-family: "roboto";
+  font-style: "normal";
+  font-weight: 300;
 }
 
 /*carrusel index*/
 .tex-resena {
   text-align: center;
-  font-size: 2rem;
   padding: 20px;
+}
+.tex-resena h2 {
+  color: #a17157;
+  font-family: "poppins";
+  font-style: "normal";
+  font-weight: 300;
 }
 
 .carousel {
@@ -129,6 +153,9 @@ footer ul li .nav-link2 {
 }
 
 .carousel-dark .carousel-caption {
+  font-size: 14px;
+  width: 600px;
+  left: 26%;
   color: white;
 }
 
@@ -146,11 +173,13 @@ footer ul li .nav-link2 {
   margin-top: 16%;
   left: 10%;
 }
-.bannerp-formu .container-div .container-div h2 {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 30px;
+.bannerp-formu .container-div h2 {
+  font-size: 50px;
   margin: 0 0 20px 0;
-  color: #434343;
+  color: #a17157;
+  font-family: "poppins";
+  font-style: "normal";
+  font-weight: 700;
 }
 .bannerp-formu .container-div .container-dtd {
   display: flex;
@@ -162,10 +191,18 @@ footer ul li .nav-link2 {
 }
 .bannerp-formu .container-div .container-dtd .form-label-dtd {
   margin-top: 5%;
+  font-family: "roboto";
+  font-style: "normal";
+  font-weight: 300;
+  color: #a17157;
 }
 .bannerp-formu .container-div .container-dtd .form-input-dtd {
   border-radius: 10px;
   height: 130%;
+  font-family: "roboto";
+  font-style: "normal";
+  font-weight: 300;
+  color: #a17157;
 }
 .bannerp-formu .container-div .button-enviar-dtd {
   background-color: #434343;
@@ -182,12 +219,21 @@ footer ul li .nav-link2 {
   display: grid;
   justify-items: center;
 }
+.contenido h2 {
+  color: #a17157;
+  font-family: "poppins";
+  font-style: "normal";
+  font-weight: 500;
+}
 .contenido p {
   width: 36%;
   color: #807e7e;
   font-size: unset;
   padding: unset;
   margin-top: 10px;
+  font-family: "roboto";
+  font-style: "normal";
+  font-weight: 300;
 }
 
 .galeria {
@@ -212,9 +258,21 @@ footer ul li .nav-link2 {
   font-size: 13px;
   text-align: center;
   width: 96%;
-  background-color: rgba(255, 255, 255, 0.3450980392);
+  background-color: rgba(255, 255, 255, 0.5764705882);
   opacity: 0;
   transition: 0.3s;
+}
+.galeria .animation-galeria .contenedor-imagen h2 {
+  color: #a17157;
+  font-family: "poppins";
+  font-style: "normal";
+  font-weight: 300;
+}
+.galeria .animation-galeria .contenedor-imagen p {
+  color: #1f1f1f;
+  font-family: "roboto";
+  font-style: "normal";
+  font-weight: 300;
 }
 .galeria .animation-galeria .contenedor-imagen:hover {
   opacity: 1;
@@ -236,13 +294,20 @@ footer ul li .nav-link2 {
   color: rgb(0, 0, 0);
 }
 .banner-qs h2 {
-  font-size: 40px;
+  color: #a17157;
+  font-size: 50px;
+  font-family: "poppins";
+  font-style: "normal";
+  font-weight: 700;
 }
 .banner-qs p {
   width: 50%;
   color: #807e7e;
   font-size: unset;
   padding: unset;
+  font-family: "roboto";
+  font-style: "normal";
+  font-weight: 300;
 }
 
 /*start html servicios*/
@@ -262,25 +327,45 @@ footer ul li .nav-link2 {
   width: 20%;
   object-fit: cover;
 }
+.cards-index .cards_servicios h3 {
+  color: #a17157;
+  font-family: "poppins";
+  font-style: "normal";
+  font-weight: 300;
+}
 .cards-index .cards_servicios p {
   width: 78%;
   color: unset;
-  font-size: 11px;
+  font-size: 14px;
   padding: unset;
   margin-left: 35px;
   text-align: initial;
+  color: #807e7e;
+  font-family: "roboto";
+  font-style: "normal";
+  font-weight: 300;
 }
 .cards-index .cards_servicios2 img {
   width: 25%;
   object-fit: cover;
 }
+.cards-index .cards_servicios2 h3 {
+  color: #a17157;
+  font-family: "poppins";
+  font-style: "normal";
+  font-weight: 300;
+}
 .cards-index .cards_servicios2 p {
   width: 78%;
   color: unset;
-  font-size: 11px;
+  font-size: 14px;
   padding: unset;
   margin-left: 35px;
   text-align: initial;
+  color: #807e7e;
+  font-family: "roboto";
+  font-style: "normal";
+  font-weight: 300;
 }
 
 .card-infocontac {
@@ -290,11 +375,20 @@ footer ul li .nav-link2 {
 .card-infocontac .card-infocontac-color {
   background-color: #f7e6db;
 }
+.card-infocontac .card-infocontac-color h5 {
+  color: #a17157;
+  font-family: "poppins";
+  font-style: "normal";
+  font-weight: 300;
+}
 .card-infocontac .card-infocontac-color p {
   width: unset;
   color: #807e7e;
   font-size: unset;
   padding: unset;
+  font-family: "roboto";
+  font-style: "normal";
+  font-weight: 300;
 }
 
 /*comienzo media queries 990px*/
@@ -314,9 +408,16 @@ footer ul li .nav-link2 {
     margin-top: 28%;
     margin-left: 9%;
     margin-bottom: 34px;
+    line-height: 66px;
   }
   .bannerp .banner-principal .button {
     margin-left: 10%;
+  }
+  .carousel-dark .carousel-caption {
+    font-size: 13px;
+    width: 600px;
+    left: 3%;
+    color: white;
   }
   /*start html quienessomos*/
   .img-fluid {
@@ -410,13 +511,23 @@ footer ul li .nav-link2 {
     height: 86%;
   }
   .bannerp .banner-principal h1 {
-    font-size: 2rem;
-    margin-top: 48%;
+    font-size: 36px;
+    margin-top: 51%;
     margin-left: 9%;
-    margin-bottom: 34px;
+    margin-bottom: 14px;
+    line-height: 38px;
+  }
+  .bannerp .banner-principal .button {
+    font-size: 12px;
   }
   .container img {
     margin-top: 23px;
+  }
+  .carousel-dark .carousel-caption {
+    font-size: 11px;
+    width: 600px;
+    left: -18%;
+    color: white;
   }
   /*start html quienessomos*/
   .img-fluid {

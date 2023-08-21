@@ -9,15 +9,15 @@
         margin-top: 16%;
         left: 10%;
 
-        .container-div {
+       
 
             & h2 {
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                font-size: 30px;
+                font-size: 50px;
                 margin: 0 0 20px 0;
-                color: #434343;
+                color: #a17157;
+                @include tipografia_config('poppins','normal',700);
             }
-        }
+     
 
         .container-dtd {
             display: flex;
@@ -31,12 +31,16 @@
             .form-label-dtd {
                 margin-top: 5%;
                 @extend .form_config;
+                @include tipografia_config('roboto','normal',300);
+                color: #a17157;
             }
 
             .form-input-dtd {
                 border-radius: 10px;
                 height: 130%;
                 @extend .form_config;
+                @include tipografia_config('roboto','normal',300);
+                color: #a17157;
             }
 
 

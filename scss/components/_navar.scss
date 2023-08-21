@@ -1,4 +1,5 @@
 .navbar {
+    @include tipografia_config('roboto','normal',400);
 
     background-color: #fffaf5;
     

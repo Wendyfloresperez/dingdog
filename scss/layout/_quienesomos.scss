@@ -8,11 +8,14 @@
     color: rgb(0, 0, 0);
 
     & h2 {
-        font-size: 40px;
+        color: #a17157;
+        font-size: 50px;
+        @include tipografia_config('poppins','normal',700);
     }
 
     & p {
         @include parrafo_config(50%,#807e7e,unset,unset);
+        @include tipografia_config('roboto','normal',300);
     }
 
 

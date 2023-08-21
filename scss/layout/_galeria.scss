@@ -6,9 +6,15 @@
     display: grid;
     justify-items: center;
 
+    & h2{
+        color: #a17157;
+        @include tipografia_config('poppins','normal',500);
+    }
+
     & p {
         @include parrafo_config(36%,#807e7e,unset,unset);
         margin-top: 10px;
+        @include tipografia_config('roboto','normal',300);
     }
 }
 
@@ -33,9 +39,19 @@
             font-size: 13px;
             text-align: center;
             width: 96%;
-            background-color: #ffffff58;
+            background-color: #ffffff93;
             opacity: 0;
             transition: .3s;
+
+            & h2{
+                color: #a17157;
+                @include tipografia_config('poppins','normal',300);
+            }
+
+            & p{
+                color: #1f1f1f;
+                @include tipografia_config('roboto','normal',300);
+            }
 
             &:hover {
                 opacity: 1;

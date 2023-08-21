@@ -7,6 +7,7 @@
     margin-bottom: 34px;
     color: #8f8f8f;
     line-height: 77px;
+   
 
 }
 
@@ -21,10 +22,17 @@
             object-fit: cover;
         }
 
+        & h3{
+            color: #a17157;
+            @include tipografia_config('poppins','normal',300);
+        }
+
         & p {
-            @include parrafo_config(78%,unset,11px,unset);
+            @include parrafo_config(78%,unset,14px,unset);
             margin-left: 35px;
             text-align: initial;
+            color:#807e7e ;
+            @include tipografia_config('roboto','normal',300);
         }
 
     }
@@ -37,10 +45,18 @@
 
         }
 
+        & h3{
+            color: #a17157;
+            @include tipografia_config('poppins','normal',300);
+        }
+       
+
         & p {
-            @include parrafo_config(78%,unset,11px,unset);
+            @include parrafo_config(78%,unset,14px,unset);
             margin-left: 35px;
             text-align: initial;
+            color:#807e7e ;
+            @include tipografia_config('roboto','normal',300);
         }
 
 
@@ -56,8 +72,14 @@
     .card-infocontac-color {
         background-color: #f7e6db;
 
+        & h5{
+            color: #a17157;
+            @include tipografia_config('poppins','normal',300);
+        }
+
         & p {
             @include parrafo_config(unset,#807e7e,unset,unset);
+            @include tipografia_config('roboto','normal',300);
         }
     }
 

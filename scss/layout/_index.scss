@@ -19,15 +19,18 @@
             margin-top: 28%;
             margin-left: 16%;
             margin-bottom: 34px;
+            line-height: 87px;
+            @include tipografia_config('poppins','normal',700);
         }
 
         .button {
-            font-size: 15px;
+            font-size: 23px;
             text-decoration: none;
             color: #ffffff;
             background-color: rgb(250 188 147 / 76%);
             padding: 10px;
             margin-left: 16%;
+            @include tipografia_config('roboto','normal',400);
 
             &:hover {
                 color: #434343;
@@ -65,10 +68,12 @@
 
         h3{
             padding: 15px;
-            color: #686767;
+            color: #a17157;
+            @include tipografia_config('poppins','normal',500);
         }
         p {
-            @include parrafo_config(unset,#686767,unset,15px);
+            @include parrafo_config(unset,#c89274,unset,15px);
+            @include tipografia_config('roboto','normal',300);
         }
     }
 
@@ -79,8 +84,11 @@
 
 .tex-resena {
     text-align: center;
-    font-size: 2rem;
     padding: 20px;
+    & h2{
+        color: #a17157;
+    @include tipografia_config('poppins','normal',300);
+}
 }
 
 .carousel {
@@ -89,6 +97,9 @@
 }
 
 .carousel-dark .carousel-caption {
+    font-size: 14px;
+    width: 600px;
+    left: 26%;
     color: white;
 }
 
