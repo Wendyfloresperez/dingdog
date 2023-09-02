@@ -39,17 +39,17 @@
             font-size: 13px;
             text-align: center;
             width: 96%;
-            background-color: #ffffff93;
+            background-color: #00000059;
             opacity: 0;
             transition: .3s;
 
             & h2{
-                color: #a17157;
+                color: #ffffff;
                 @include tipografia_config('poppins','normal',300);
             }
 
             & p{
-                color: #1f1f1f;
+                color: #ffffff;
                 @include tipografia_config('roboto','normal',300);
             }
 

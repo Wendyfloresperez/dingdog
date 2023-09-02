@@ -10,6 +10,9 @@
         & img {
 
             margin-top: 60px;
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
         }
 
         .banner-principal {
@@ -83,8 +86,8 @@
                 padding: 20px;
                 font-size: 10px;
                 text-align: center;
-                width: 94%;
-                background-color: #ffffff58;
+                width: 93%;
+                background-color: #00000059;
                 opacity: 0;
                 transition: .3s;
 
@@ -104,10 +107,21 @@
 
     /*start html servicios*/
 
+    .bannerp{
+        & img{
+            margin-top: 75px;
+            width: 100%;
+            height: 518px;
+            object-fit: cover;
+        }
+    }
+
     #h1_banner {
-        font-size: 3rem;
-        margin-top: 26%;
-        line-height: 52px;
+        font-size: 44px;
+        margin-top: 36%;
+        line-height: 42px;
+        width: 292px;
+        margin-left: 35px;
 
     }
 
@@ -134,12 +148,19 @@
 
     .bannerp-formu {
 
-        margin-top: 37px;
-        width: 113%;
+        .img-fluid{
+            
+        margin-top: 80px;
+            width: 100%;
+            height: 897px;
+            object-fit: cover;
+
+
+        }
 
         .container-div {
-            margin-top: 20%;
-            left: 2%;
+            margin-top: 44%;
+            left: 11%;
             width: 573px;
         }
 
@@ -181,8 +202,8 @@
             height: 86%;
 
             & h1 {
-                font-size: 36px;
-                margin-top: 51%;
+                font-size: 28px;
+                margin-top: 70%;
                 margin-left: 9%;
                 margin-bottom: 14px;
                 line-height: 38px;
@@ -190,6 +211,17 @@
 
             .button{
                 font-size: 12px;
+            }
+        }
+    }
+
+
+    /*start cards-index*/
+
+    .cards-index{
+        .cards{
+            & p{
+                font-size: 13px;
             }
         }
     }
@@ -203,19 +235,35 @@
     .carousel-dark .carousel-caption {
         font-size: 11px;
         width: 600px;
-        left: -18%;
+        left: -40%;
         color: white;
     }
+
+    .carousel-control-prev {
+        left: 20px;
+    }
+
+    .carousel-control-next {
+        right: 20px;
+    }
+
+
 
     /*start html quienessomos*/
 
 
     .img-fluid {
         margin-top: 134px;
+        width: 100%;
+    height: 271px;
+    object-fit: cover;
     }
 
     .banner-qs {
         margin-left: 0px;
+        margin-top: 62px;
+        width: 20px;
+        padding: 66px;
 
         & h2 {
             font-size: 50px;
@@ -231,7 +279,7 @@
     /*start html galeria*/
 
     .contenido {
-        margin-top: 42%;
+        margin-top: 55%;
 
     }
 
@@ -242,6 +290,27 @@
         .animation-galeria {
             transition: 1s;
             margin: 0 0 20px;
+
+            .contenedor-imagen {
+            
+                top: 21%;
+             
+                font-size: 10px;
+              
+                width: 91%;
+            
+            
+        
+
+                &:hover {
+                    opacity: 1;
+                }
+
+                & h2 {
+                    font-size: 25px;
+
+                }
+            }
         }
 
 
@@ -252,12 +321,23 @@
     }
 
 
+
     /*start html servicios*/
 
+    .bannerp{
+        & img{
+            width: 100%;
+            height: 326px;
+            object-fit: cover;
+        }
+    }
+
     #h1_banner {
-        font-size: 2rem;
-        margin-top: 48%;
-        line-height: 37px;
+        font-size: 30px;
+        margin-top: 70%;
+        line-height: 34px;
+        width: 162px;
+        margin-left: 20px;
 
     }
 
@@ -272,13 +352,27 @@
 
     .bannerp-formu {
 
-        margin-top: 2px;
-        width: 204%;
+        .img-fluid{
+            
+        margin-top: 80px;
+            width: 100%;
+            height: 1118px;
+            object-fit: cover;
+
+
+        }
+
+        
+       
 
         .container-div {
-            margin-top: 20%;
+            margin-top: 44%;
             left: 7px;
             width: 458px;
+            
+            .container-dtd{
+                flex-wrap: wrap;
+            }
         }
 
     }
